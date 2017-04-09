@@ -1,10 +1,13 @@
-setwd("/home/yefu/Test") # Set the working directory contains the payments.csv
+# Author: Yefu Wang
+# Date: April, 2017
+# Purpose: To answer the questions in the project
 
 
 data <- read.csv("payments.csv") 
 # Read the data file and assign it to "data", please be sure that the payments.csv file is in your working directory
 
-colNames <- colnames(data) # Get the column names of each column so that we know that the variable we need is
+colNames <- colnames(data) 
+# Get the column names of each column so that we know that the variable we need is
 
 #Question 1, get the data for Average.Covered.Charges and assign them to Average.Covered.Charges
 # get the data for Average.Total.Payments and assign them to Average.Total.Payments
